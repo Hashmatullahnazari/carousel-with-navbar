@@ -6,6 +6,7 @@ body
 
 .navbar
 {
+  
   background: hsla(204, 92%, 45%, 0.94) ;
   border-radius: 0!important;
   margin-bottom: 0!important;
@@ -37,6 +38,7 @@ body
 	background-color: transparent;
 }
 
+
 .carousel-inner > .item > a > img, 
 .carousel-inner > .item > img {
 	line-height: 1;
@@ -55,6 +57,7 @@ body
 	background-image: none;
 	border: 1px solid white;
 	border-radius: 0;
+  
 }
 
 .navbar .navbar-toggle .icon-bar {
@@ -68,8 +71,60 @@ body
 
 .multiple 
 {
+  margin-top: none;
   padding-top: 5%;
-  background: rgba(9, 136, 220, 0.94);
+  background: hsl(65, 46%, 61%);
 
 }
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+	text-decoration: none;
+background: transparent;
+}
 
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	border-color: #337ab7;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+  background:hsla(204, 92%, 45%, 0.94);
+}
+
+
+
+
+.navbar .dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover
+
+{
+	background: tranparent;
+	text-decoration: none;
+}
+
+.navbar .dropdown-menu > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: white;
+	white-space: nowrap;
+}
+
+.navbar .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	background-color: transparent!important;
+	border-color: #337ab7;
+}
+
+.navbar .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.navbar .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	background-color: transparent;
+	border-color: #337ab7;
+}
