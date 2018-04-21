@@ -1,0 +1,75 @@
+
+body
+{
+  font-family: "Andale Mono", AndaleMono, monospace!important;
+}
+
+.navbar
+{
+  background: hsla(204, 92%, 45%, 0.94) ;
+  border-radius: 0!important;
+  margin-bottom: 0!important;
+}
+
+.navbar .navbar-brand
+{
+  font-size: 20px;
+  font-weight: bold;
+  color:white ;
+}
+.navbar li a 
+{
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  
+}
+
+.navbar li a:hover
+{
+  background: transparent;
+  color: #000000;
+  transition: all 2s ease;
+}
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.carousel-inner > .item > a > img, 
+.carousel-inner > .item > img {
+	line-height: 1;
+	width: 100%;
+  height: 600px!important;
+}
+
+.navbar .navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid white;
+	border-radius: 0;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.multiple img {
+	vertical-align: middle;
+	width: 100%;
+}
+
+.multiple 
+{
+  padding-top: 5%;
+  background: rgba(9, 136, 220, 0.94);
+
+}
+
